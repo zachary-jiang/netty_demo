@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "EventLoopClient",
+            "request": "launch",
+            "mainClass": "cn.EventLoopClient",
+            "projectName": "netty-demo"
+        },
+        {
+            "type": "java",
+            "name": "EventLoopServer",
+            "request": "launch",
+            "mainClass": "cn.EventLoopServer",
+            "projectName": "netty-demo"
+        },
+        {
+            "name": "Python3",
+            "type": "python",
+            "request": "launch",
+            "stopOnEntry": false,
+            "python": "C:\\Users\\zachary.jiang\\anaconda3\\envs\\opencv",
+            "program": "${file}",
+            "cwd": "${workspaceFolder}",
+            "env": {},
+            "envFile": "${workspaceFolder}/.env",
+            "debugOptions": [
+                "RedirectOutput"
+            ]
+        }
+    ]
+}
